@@ -14,9 +14,9 @@ def init_connection():
     return mysql.connector.connect(
         host="localhost",
         user="root",
-        password="ria080503",
+        password="", # enter your password here
         database="f1",
-        port=3306
+        port=3306 # enter correct port number
     )
 
 conn = init_connection()
@@ -43,10 +43,10 @@ def get_base64_of_image(image_path):
     with open(image_path, "rb") as img_file:
         return base64.b64encode(img_file.read()).decode()
 
-f1_logo = Image.open("C:/Users/Ria/Downloads/images/logo.png")  
+f1_logo = Image.open("path/to/logo.png")  
 st.image(f1_logo, width=200)
 
-background_image = get_base64_of_image("C:/Users/Ria/Downloads/images/back.jpg") 
+background_image = get_base64_of_image("path/to/back.jpg") 
 st.markdown(
     f"""
     <style>
