@@ -12,13 +12,13 @@
 This project provides a comprehensive SQL-based database for managing and analyzing Formula 1 data including circuits, constructors, drivers, championship points, fastest laps and pole positions. It is designed to track F1 season statistics and can be used for F1-related data analytics, applications or educational purposes.
 
 The F1 database contains the following tables:
-circuit: Stores details of each F1 circuit (name, location, and length).
-constructor_list: Contains the constructor (team) names, their base location, and engine.
-const_champs: Holds constructor championship rankings and points.
-driver_list: Records driver details such as name, date of birth, nationality, and team.
-driver_champs: Tracks driver championship positions and points.
-fastest_lap: Logs the fastest lap times by drivers at different circuits.
-pole_position: Records pole position data for drivers on specific circuits.
+1) circuit: Stores details of each F1 circuit (name, location, and length).
+2) constructor_list: Contains the constructor (team) names, their base location, and engine.
+3) const_champs: Holds constructor championship rankings and points.
+4) driver_list: Records driver details such as name, date of birth, nationality, and team.
+5) driver_champs: Tracks driver championship positions and points.
+6) fastest_lap: Logs the fastest lap times by drivers at different circuits.
+7) pole_position: Records pole position data for drivers on specific circuits.
 
 ![Screenshot 2024-09-11 161706](https://github.com/user-attachments/assets/2c6b487f-2b79-493e-b34a-be2f15cc1d9b)
 
